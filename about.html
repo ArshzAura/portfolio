@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About | Aura</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#F8F4EE;
+    color:#3B2F2F;
+    line-height:1.9;
+}
+
+/* =========================
+        NAVBAR
+========================= */
+
+nav{
+
+    background:#4A3428;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 10%;
+
+    position:sticky;
+
+    top:0;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.logo{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:2rem;
+
+    letter-spacing:5px;
+
+    color:#F8F4EE;
+}
+
+.home-btn{
+
+    color:#F8F4EE;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.home-btn:hover{
+
+    color:#D9B382;
+}
+
+/* =========================
+      HERO
+========================= */
+
+.about{
+
+    max-width:900px;
+
+    margin:90px auto;
+
+    text-align:center;
+
+    padding:0 25px;
+}
+
+.about h1{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:3.4rem;
+
+    color:#4A3428;
+
+    margin-bottom:30px;
+}
+
+.about p{
+
+    font-size:1.08rem;
+
+    color:#5C4B43;
+}
+
+/* =========================
+        CARDS
+========================= */
+
+.card{
+
+    width:min(900px,90%);
+
+    margin:40px auto;
+
+    background:#FFFDF9;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 25px rgba(74,52,40,.08);
+
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 30px rgba(74,52,40,.12);
+}
+
+.card h2{
+
+    font-family:'Playfair Display',serif;
+
+    color:#4A3428;
+
+    margin-bottom:18px;
+
+    font-size:2rem;
+}
+
+.card p{
+
+    color:#5C4B43;
+}
+
+/* =========================
+      LIST
+========================= */
+
+.services{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:15px;
+
+    margin-top:20px;
+}
+
+.service{
+
+    background:#F8F4EE;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    font-weight:500;
+}
+
+/* =========================
+      FOOTER
+========================= */
+
+footer{
+
+    background:#4A3428;
+
+    color:#F8F4EE;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:80px;
+}
+
+/* =========================
+      MOBILE
+========================= */
+
+@media(max-width:768px){
+
+.about h1{
+
+    font-size:2.4rem;
+}
+
+.logo{
+
+    font-size:1.6rem;
+}
+
+}
+
+    </style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+AURA
+</div>
+
+<a href="index.html" class="home-btn">← Home</a>
+
+</nav>
+
+<section class="about">
+
+<h1>About Me</h1>
+
+<p>
+
+Hi, I'm <strong>Arshdeep Kaur</strong>, founder of <strong>Aura</strong>—a freelance brand built on the belief that every piece of writing deserves clarity, precision, and purpose.
+
+With experience in copyediting, content writing, translation, subtitle editing, and academic support, I help researchers, businesses, students, and professionals transform ideas into polished, engaging, and impactful content.
+
+Whether I'm refining a research paper, improving website copy, or translating content between English, Hindi, and Punjabi, I focus on preserving your voice while enhancing readability and professionalism.
+
+At Aura, every project is handled with care, attention to detail, and a commitment to quality. My goal is simple: to help your words communicate exactly what you intend.
+
+</p>
+
+</section>
+
+<div class="card">
+
+<h2>My Mission</h2>
+
+<p>
+
+To empower individuals, researchers, businesses, and creators by delivering language services that are accurate, thoughtful, and impactful. I believe great communication begins with well-crafted words, and every project deserves the highest standard of care.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Services I Offer</h2>
+
+<div class="services">
+
+<div class="service">✦ Copyediting</div>
+
+<div class="service">✦ Proofreading</div>
+
+<div class="service">✦ Content Writing</div>
+
+<div class="service">✦ Translation</div>
+
+<div class="service">✦ Subtitle Editing</div>
+
+<div class="service">✦ Academic Support</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Aura • Crafted with precision by Arshdeep Kaur
+
+</footer>
+
+</body>
+</html>
